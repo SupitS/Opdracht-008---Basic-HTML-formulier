@@ -16,21 +16,16 @@
 
         <!--Opdracht: maak een contactformulier met deze vier items erin:
             naam veld, email veld, tekstveld, submit knop -->
-
-        <input type="text" value="Name" />
-        <br>
-        <input type="email" value="Email" />
-        <br>
-        <textarea rows="10" cols="25">
-        </textarea>
-        <input type="submit" />
-
-
-        <br>
-
-        <!-- to put text inside the input field use: <input type="text" value="Enter your username" />
-            to hide the text use <input type="password"/> -->
-
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="text" value="Name" />
+            <br>
+            <input type="email" value="Email" />
+            <br>
+            <textarea rows="10" cols="25">
+            </textarea>
+            <input type="submit" />
+            <br>
+        </form>
     </main>
 
     <br>
